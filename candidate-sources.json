@@ -1,0 +1,178 @@
+{
+  "upstream": "udecode/plate",
+  "tested_base": "bda11bb012c602c9fd553d51896f159d6dbd4139",
+  "scope": "Local Chromium proof of final source on the recorded next base. Broad type/build gates remain incomplete; the PR is a draft. See validation-summary.json for scope and limits.",
+  "candidates": [
+    {
+      "key": "plate-comments",
+      "files": [
+        {
+          "path": "apps/www/public/r/discussion.json",
+          "sha256": "85c133cf162766c41e6271d7e8891d53b523f7864e8461e2f952373a7e410b8c"
+        },
+        {
+          "path": "apps/www/public/r/floating-popover.json",
+          "sha256": "e359ed03814ce52082592736d9bf11ed3f731d8734dd8db28d5d8294340e4e9b"
+        },
+        {
+          "path": "apps/www/src/__registry__/generation.json",
+          "sha256": "cc80d3a8d2ec9eb3ee32d44291af5969a689648cbba46a6eef7215e93c21ac3d"
+        },
+        {
+          "path": "apps/www/src/__registry__/index.tsx",
+          "sha256": "afe0756cc50c20e679c7716faeea02e3d20670775698faa7582e1136eb121790"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-luma/floating-popover.json",
+          "sha256": "318de92bacde11c0116e69798946756db71353cc134624dabd8129d8d2fb3d53"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-lyra/floating-popover.json",
+          "sha256": "ede599d5fb424d6a24ca00611e9707d30d59b838f1b094332e5ae4100fa24f62"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-maia/floating-popover.json",
+          "sha256": "7b4f57802faf04dc01d9a4af2bfaa731b0e2e35650c59e44c7d771bae33d3288"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-mira/floating-popover.json",
+          "sha256": "7958b07ddc5eaa0cfc259a854fadca69054c79d66560606c28662ee788b5a45f"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-rhea/floating-popover.json",
+          "sha256": "318de92bacde11c0116e69798946756db71353cc134624dabd8129d8d2fb3d53"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-sera/floating-popover.json",
+          "sha256": "12319c10713950bb32f2b17262e45fe81c9b5788b5e03e4659d5af233fe458f1"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/base-vega/floating-popover.json",
+          "sha256": "0dda130d467b2b2c14fb6f3864eae27c4f578aaf2039db51c9374d814d4a3173"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/manifest.json",
+          "sha256": "ed4668a404868f89a8f21d036e98cc83c289220f211117804ebff437928f2005"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-luma/floating-popover.json",
+          "sha256": "5b5828e4d8b7aed24d278ef2dd7a6ce9ac36b95c5d3027c13d0f87160f03c9cd"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-lyra/floating-popover.json",
+          "sha256": "13c6e65f450a94d520a254212491699053f59cb5ec21f78f67fec96357f72e55"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-maia/floating-popover.json",
+          "sha256": "f4e80d890c8b9b257eacfce76feb88ea89e1b159c652a62001a4e69b14d73f1a"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-mira/floating-popover.json",
+          "sha256": "04fdc8462b2cb85ba2d0d91f6beb5dabc92e6eafa894b95aff7f2b5f73ed2127"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-nova/floating-popover.json",
+          "sha256": "039e2ebfda024aa70a00b4201cb99898b2c32ca3f08e8ca8be171b3650f2a139"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-rhea/floating-popover.json",
+          "sha256": "5b5828e4d8b7aed24d278ef2dd7a6ce9ac36b95c5d3027c13d0f87160f03c9cd"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-sera/floating-popover.json",
+          "sha256": "91f76c52e9eb1e94567b83df87e8b22d77a7b138e86504e17e419a512fa4a842"
+        },
+        {
+          "path": "apps/www/src/__registry__/overlays/radix-vega/floating-popover.json",
+          "sha256": "2c24ca0b15c1f4389df4daed3e145b944a6424c4803241c3318d43f20a486dd7"
+        },
+        {
+          "path": "apps/www/src/__registry__/registry-metadata.json",
+          "sha256": "593d55ea808ca79859ceba37db78ebdc6ed51de2758a3b4999274d91ea026607"
+        },
+        {
+          "path": "apps/www/src/__tests__/package-integration/multi-editor.spec.tsx",
+          "sha256": "adb6797e9f4274129e356951e55232cf35a938e6199242949ed62a0cbb6c0c33"
+        },
+        {
+          "path": "apps/www/src/app/(blocks)/blocks/discussion-proof/page.tsx",
+          "sha256": "d4f88836b8a4ae80ea9865da20e2e02d1ba82a838ecf585bacb9f4eb94dfe09c"
+        },
+        {
+          "path": "apps/www/src/registry/bases/base/floating-popover.tsx",
+          "sha256": "5540e385e09ae0b6506af5bdcf1d3dfcc8c087dec5841ebc6dc4d802613e5cd2"
+        },
+        {
+          "path": "apps/www/src/registry/bases/radix/floating-popover.tsx",
+          "sha256": "1f45e2781cc9580380bb56cd9fce1222e873950068c91a6b6eae948bfe586c52"
+        },
+        {
+          "path": "apps/www/src/registry/changelog/2026-09-21-keep-comment-selection-visible-on-flip.json",
+          "sha256": "40bc3d522807f6d2d25a6b32cd70622242ae2d8a30f13a161300392389010070"
+        },
+        {
+          "path": "apps/www/src/registry/changelog/components.json",
+          "sha256": "2dff50727064f4434e0074a2ed7e8d2f26d964c05a27927ea823976e61175de0"
+        },
+        {
+          "path": "apps/www/src/registry/changelog/entries/2026-09-21-keep-comment-selection-visible-on-flip.mdx",
+          "sha256": "c26fa299fcede2c096e7cf5d600ddc6da38be18b62ed56ed3b383726bcda4dd5"
+        },
+        {
+          "path": "apps/www/src/registry/changelog/index.json",
+          "sha256": "faa29b2cb59cd611d73fe963660341658ade56c9236fcbb2f816fa1a81fce33e"
+        },
+        {
+          "path": "apps/www/src/registry/components/editor/comment.spec.tsx",
+          "sha256": "4640822a1ccc82cfe2d939b3b0ceed19c1a2b4a81d68a9a8881acd59790bf8fa"
+        },
+        {
+          "path": "apps/www/src/registry/components/editor/discussion.spec.tsx",
+          "sha256": "dc127f4c856e16b5cbeaeb9c3dde80c67cf58b7aa2e0b7beee1cdb5d3a397715"
+        },
+        {
+          "path": "apps/www/src/registry/components/editor/discussion.tsx",
+          "sha256": "081f3acd99062dd7e69c5766ebf6dfcbf761606b93b3e15b92b66c014b72e603"
+        },
+        {
+          "path": "apps/www/src/registry/components/editor/math.lifecycle.spec.tsx",
+          "sha256": "eed0f21273fa5ac030a4cc1a4527414becd972c2e628ffdf0661e738cf4c58e9"
+        },
+        {
+          "path": "apps/www/tests/browser/comment.spec.ts",
+          "sha256": "e4eb6d4d451bedde86bdc449bf9f5c737a1377f76482cde1cfe752052be13275"
+        },
+        {
+          "path": "benchmarks/editor/benchmarks/plite-history-depth-benchmark.ts",
+          "sha256": "6985ae44176bd33ed63dd8f3b51e284160b469154d0f796b22a5133497bf3097"
+        },
+        {
+          "path": "packages/platejs/src/ai/react/AIChatPlugin.submit.slow.ts",
+          "sha256": "01fd48cc4358b9534348cf7270e3bdf6b670387091010ce7f41e9a1d25c441cd"
+        },
+        {
+          "path": "packages/platejs/tsconfig.entrypoints/ai-react.json",
+          "sha256": "a897e9b476a5096245e87045585c5598db5bce90a1098770512346c847a7190d"
+        },
+        {
+          "path": "packages/platejs/turbo.json",
+          "sha256": "28e1ee7fcba480c4c70134fb9aba713ed0efe0b4f320a7c6bc11d3b4c7b7213c"
+        }
+      ],
+      "patches": [
+        {
+          "name": "plate-format-prerequisite.patch",
+          "sha256": "007dff4ad01d1cf046c0448fea9a3f8267e62869fe31a2e01fa1e3268a0dc0ff"
+        },
+        {
+          "name": "plate-validation-maintenance.patch",
+          "sha256": "c5fe1c0fd11d7961c6a3ba14789f69824daa404a9a2a8a969014a4239c175107"
+        },
+        {
+          "name": "plate-comment-selection-core.patch",
+          "sha256": "c1c3986d283b63c5f1471cf33fd6d06ecf4a772f537b4f2da08bc7a13de10d22"
+        }
+      ]
+    }
+  ]
+}

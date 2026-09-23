@@ -1,0 +1,80 @@
+{
+  "base": "bda11bb012c602c9fd553d51896f159d6dbd4139",
+  "local_scope": "Same candidate bytes; unit/browser proof reused after source identity verification.",
+  "passed": {
+    "fast": {
+      "command": "pnpm test",
+      "pass": 1140,
+      "fail": 0,
+      "skip": 0,
+      "files": 181
+    },
+    "slow": {
+      "command": "pnpm test:slow",
+      "pass": 1553,
+      "fail": 0,
+      "skip": 60,
+      "files": 87
+    },
+    "app_fast": {
+      "command": "pnpm exec bun tooling/scripts/test-suite.mjs fast apps/www",
+      "pass": 542,
+      "fail": 0,
+      "files": 123
+    },
+    "browser": {
+      "pass": 13,
+      "fail": 0,
+      "retries": 0
+    },
+    "resize": {
+      "pass": 4,
+      "fail": 0
+    },
+    "entrypoint_contracts": 17,
+    "authored_history_contracts": 21,
+    "ai_owner": 20
+  },
+  "incomplete": {
+    "publication_aggregate_check": {
+      "command": "pnpm check",
+      "elapsed_seconds": 60.7,
+      "cap_seconds": 60,
+      "passed_stages": [
+        "formatting",
+        "ordinary lint"
+      ],
+      "stopped_in": "type-aware lint",
+      "subsequent_stages_not_run": [
+        "package typecheck",
+        "test:all"
+      ]
+    },
+    "app_types": {
+      "command": "node node_modules/typescript/bin/tsc --noEmit -p apps/www/tsconfig.json --diagnostics",
+      "cap_seconds": 360,
+      "elapsed_seconds": 365.67,
+      "sampled_rss_kb": 2149664,
+      "diagnostics": 0
+    },
+    "type_aware_lint": {
+      "command": "pnpm lint:type-aware",
+      "cap_seconds": 360,
+      "elapsed_seconds": 360.53,
+      "sampled_rss_kb": 1905648,
+      "rule_diagnostics": 0
+    }
+  },
+  "remaining": [
+    "Root package type graph",
+    "Full app/package-integration types and wrapper CLI/declaration prerequisites",
+    "Registry template builds",
+    "Plite CI/coverage"
+  ],
+  "limits": [
+    "Local Chromium on macOS; no other engine/native device/IME/assistive-technology claim.",
+    "Very large selections can overlap the composer when no outside space is available.",
+    "The narrow proof fixture itself can horizontally scroll.",
+    "No external CI success, shipped fix or human review attestation is claimed."
+  ]
+}

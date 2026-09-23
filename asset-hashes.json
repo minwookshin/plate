@@ -1,0 +1,47 @@
+[
+  {
+    "path": "base-two-line-geometry.json",
+    "bytes": 687,
+    "sha256": "fbf8166e32ede11f0773ef62b3f1db28bcf296aa6ca70633ec03f2d1cce1b09f"
+  },
+  {
+    "path": "base-two-line.png",
+    "bytes": 34223,
+    "sha256": "a4d6fa655703899b5991cf86a59ce7c7ed86b1e86907d9131eb4b5d3906c2981"
+  },
+  {
+    "path": "candidate-sources.json",
+    "bytes": 8035,
+    "sha256": "cb9ca59d93d8c895e22a545287525dddb69626563d8e6a8a9d8394d108b87fef"
+  },
+  {
+    "path": "radix-narrow-dark-geometry.json",
+    "bytes": 1583,
+    "sha256": "b49f2017305f34adae4d395b91c5036699921d5104149baca1c6b6be5c5af3d1"
+  },
+  {
+    "path": "radix-narrow-dark.png",
+    "bytes": 57241,
+    "sha256": "8a6860e30ddf2a4141351c1a55e1e9c1810272f8aafc7887f283ebc52b51f281"
+  },
+  {
+    "path": "radix-two-line-geometry.json",
+    "bytes": 687,
+    "sha256": "fbf8166e32ede11f0773ef62b3f1db28bcf296aa6ca70633ec03f2d1cce1b09f"
+  },
+  {
+    "path": "radix-two-line.png",
+    "bytes": 33690,
+    "sha256": "2d8e9663059664db863d40bcb37e668672f4766a8bb2edf5d440b2c5ed34f4b1"
+  },
+  {
+    "path": "source-fingerprints.json",
+    "bytes": 12687,
+    "sha256": "1f6394d642e75f5a885f909f5a3c90d33f8b82f70a63f4149c038c3a4238cdae"
+  },
+  {
+    "path": "validation-summary.json",
+    "bytes": 2162,
+    "sha256": "ead18e454fd609fa3e621a3778fd42dd877cd6367828dd75de9fdae1c7021329"
+  }
+]
